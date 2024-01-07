@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+}
+
+/* Header adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .header__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .header__link {
+        margin-top: 8px;
+    }
+}
+
+/* Header content adjustments */
+@media only screen and (max-width: 768px) {
+    .header__content {
+        padding: 80px 0;
+    }
+
+    .header__desk {
+        text-align: center;
+    }
+
+    .header_image {
+        width: 100%;
+        top: 0;
+        border-radius: 0;
+    }
+}
+
+/* About section adjustments */
+@media only screen and (max-width: 768px) {
+    .about {
+        padding: 80px 0;
+    }
+
+    .about_cards {
+        flex-direction: column;
+    }
+
+    .about_card {
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+}
+
+/* Sale section adjustments */
+@media only screen and (max-width: 768px) {
+    .sale__content {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        height: auto;
+    }
+
+    .sale__desc {
+        order: 2;
+        text-align: center;
+    }
+
+    .sale__image {
+        width: 100%;
+    }
+}
+
+/* Footer adjustments */
+@media only screen and (max-width: 768px) {
+    .footer_social {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_line {
+        margin: 32px 0;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+
+    .footer_list {
+        margin-bottom: 32px;
+    }
+}
+
+/* Additional universal adjustments */
+@media only screen and (max-width: 576px) {
+    .header__logo {
+        font-size: 28px;
+    }
+
+    .header__title {
+        font-size: 32px;
+    }
+
+    .about__title {
+        font-size: 48px;
+    }
+
+    .sale__desc__title {
+        font-size: 32px;
+    }
+
+    .footer_link {
+        font-size: 14px;
+    }
+}
+
+
